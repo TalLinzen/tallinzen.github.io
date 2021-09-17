@@ -1,10 +1,17 @@
-{% extends "base.html" %}
-
-{% block head %}
+<html>
+<head>
+    <link rel="stylesheet" href="/media/css/style.css">
     <title>Tal Linzen</title>
-{% endblock %}
-
-{% block content %}
+</head>
+<body>
+    <p id="myname">Tal Linzen</p>
+    <ul id="navbar">
+          <li id="home"><a href="/" title="Home">Home</a></li>
+          <li id="research"><a href="/research/" title="Research">Research</a></li>
+          <li id="teaching"><a href="/teaching/" title="Teaching">Teaching</a></li>
+          <li id="israblog"><a href="/resources/" title="Resources">Resources</a></li>
+          <li id="cv"><a href="/media/tal_linzen_cv.pdf" title="CV">CV</a></li>
+    </ul>
 <div class="inset">
     <div id="bio">
         <img id="profilephoto" src="/media/img/tallinzen_very_small.jpg"/>
@@ -41,4 +48,5 @@
         <p><a href="https://mediaup.uni-potsdam.de/Play/Chapter/227">Neural networks as a framework for modeling human syntactic processing</a> (AMLaP keynote; September 2020).</p>
         <p>Talk at <a href="https://www.youtube.com/watch?v=8ba4pn0frqo">Allen Institute for Artificial Intelligence</a> (December 2018).</p>
 
-{% endblock %}
+</body>
+</html>
