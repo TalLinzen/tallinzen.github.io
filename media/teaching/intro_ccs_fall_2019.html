@@ -1,0 +1,225 @@
+<html>
+<head>
+    <link rel="stylesheet" href="/media/css/style.css">
+    <title>Intro to Computational Cognitive Science: Fall 2019</title>
+</head>
+<body>
+
+<div class="inset">
+    <h1>Introduction to Computational Cognitive Science (Fall 2019)</h1>
+    <p><b>Johns Hopkins University, AS.050.202</b>
+    <p><b>Krieger 111</b></p>
+    <p><b>Lectures:</b> Tuesday and Thursday, 10:30-11:45 am</p>
+    <p><b>Lab:</b> Friday 2:15-3:30 pm</tr>
+    <table>
+        <tr><td style="padding-top: 20px">Instructor</td><td style="padding-top: 20px"> <p><a href="http://tallinzen.net">Tal Linzen</a></p><p>tal.linzen@jhu.edu</p><p>Office hour: Krieger 243, <b>by appointment only</b> <a href="https://docs.google.com/spreadsheets/d/10lJ_Dmtq8cZ1LdND3r1aSALUAv3ESbUGnbiiVu4b8tw/edit?usp=sharing">(sign-up spreadsheet)</p></td></tr>
+        <tr><td style="padding-top: 20px">Teaching assistants</td>
+            <td style="padding-top: 20px"> <p><a href="https://najoungkim.github.io/">Najoung Kim</a> (A-N) </p><p>n.kim@jhu.edu</p><p>Office hour: Friday 4-5 pm, Krieger 145</p>
+                <p><a href="https://grushaprasad.github.io">Grusha Prasad</a> (O-Z) </p><p>grusha.prasad@jhu.edu</p><p>Office hour: Wednesday 5-6 pm, Krieger 239</p></td>
+        </tr>
+    </table>
+
+    <h2>Course description</h2>
+	
+    <p>
+    How does the mind work? Cognitive science addresses this question from a multidiscliplinary perspective, drawing upon methods and ideas from psychology, neurophysiology, neuroscience, philosophy, linguistics, and computer science. Within this framework, computational cognitive science has two related goals. The first is to create <i>computational models of human cognition</i>, computer programs that simulate certain aspects of the mind. The second is to understand how to produce intelligent behavior in machines, taking cues from humans. The computational frameworks we will discuss include symbolic structured representations, probabilistic inference and artificial neural networks, as applied to concept learning, language and vision. 
+    </p>
+
+<p>At the end of this class, you are expected to be able to:</p>
+
+<ul>
+    <li> State the motivation for computational models in the study of cognition and the relationship between cognitive science and artificial intelligence.</li>
+    <li> Implement basic probabilistic Bayesian models, formal grammars and neural networks, and use those programs to simulate findings from human experiments.</li>
+    <li> Explain empirical phenomena in concept learning, language acquisition and visual perception, and how those phenomena can be modeled.</li>
+</ul>
+
+<p><b>Prerequisites:</b> While there are no formal prerequisites for the class, some programming experience, as obtained by taking a class such as Introduction to Computing, is highly recommended. Familiarity with high school calculus (derivatives in particular) will also be beneficial, as will a general willingness to engage with mathematical problems.</p>
+
+<h2>Course organization</h2>
+
+<p><b>Lab:</b> The class will be accompanied by weekly lab sessions led by the TAs. The goals of the lab are to reinforce the mathematical and computational concepts covered in the lecture, and to provide hands-on technical introduction to the software tools that are essential for successful completion of the homework assignments. <b>All students are expected to enroll in the lab</b>; exceptions will be granted by the professor to students who can demonstrate sufficient computational experience.</p>
+
+<p><b>Interacting with the instructors:</b> Students are assigned to a TAs based on their last names. If your last name starts with A-L, you're assigned to Najoung; otherwise you're assigned to Grusha. The main point of this system is to make it easier for us to track individual students' attendance and progress in the class; you're still free to attend either of the TAs' office hours, of course. <b>If you have questions about the material, please attend one of our office hours or post a question on Piazza</b>. We will only use email to communicate about personal or confidential matters.</p>
+
+<p><b>Tal's office hours:</b> If you'd like to attend my office hour, please sign up for a slot <a href="https://docs.google.com/spreadsheets/d/10lJ_Dmtq8cZ1LdND3r1aSALUAv3ESbUGnbiiVu4b8tw/edit?usp=sharing">on this spreadsheet</a>; do not show up without an appointment. To maximize access to office hours, the timing of the office hour may change from week to week, if there is sufficient demand. Please let me know if you're unable to attend my office hour due to a conflict and I'll try to schedule it at a different time the following week. My office hour is most appropriate for conceptual questions about course material and computational cognitive science more generally; technical issues and questions about the homework are best discussed in the lab section or the TA's office hour.</p>
+
+<p><b>Piazza:</b> We will be using a Piazza site to make announcements and answer questions. Students who were enrolled at the beginning of the semester should have received an invitation to join the Piazza site. If you have not eceived an invitation for any reason, you can also <a href="http://piazza.com/jhu/fall2019/as050202">add yourself</a> to the site.
+
+<p><b>Laptop policy:</b> Cognitive scientists have found that laptop use in the classroom can lead to lower test scores:</p>
+
+<p>Raviza, S. M., Uitvlugt, M. G., &amp; Fenn, K. M. (2016). <a href="http://faculty.missouri.edu/segerti/1000/LaptopClassroomUse.pdf">Logged in and zoned out: How laptop Internet use relates to classroom learning.</a> Psychological Science, 28(2), 171&ndash;180.</p>
+
+<p>See also the New York Times opinion piece, <a href="/media/readings/laptops_during_class.pdf">Laptops Are Great. But Not During a
+    Lecture or a Meeting</a>.</p>
+
+<p>We recommend that you avoid using your laptop in class, except for activities that are directly related to the class (e.g., following a Jupyter notebook in lab sessions). Consider taking notes with a pen and paper. If you prefer to use your laptop, please avoid checking social media and using your laptop for any other activities that are not related to the class. Failure to observe this policy will affect your participation grade.</p>
+
+<p><b>Anxiety, Stress and Mental Health:</b> If you are struggling with anxiety, stress, depression or other mental health related concerns, please consider visiting the JHU Counseling Center. If you are concerned about a friend, please encourage that person to seek out their services. The Counseling Center is located at 3003 North Charles Street in Suite S-200 and can be reached at 410-516-8278 and <a href="http://studentaffairs.jhu.edu/counselingcenter">online</a>.</b>
+
+<p><b>Disability services:</b> Any student with a disability who may need accommodations in this class should obtain an accommodation letter from Student Disability Services, studentdisabilityservices@jhu.edu, 385 Garland, (410) 516-4720. Please bring it to our attention as early as possible so we can do the best we can to accommodate your needs.</p>
+
+<h2>Ethics policy</h2>
+
+The strength of the university depends on academic and personal integrity. In this course, you must be honest and truthful. Ethical violations include cheating on exams, plagiarism, reuse of assignments, improper use of the Internet and electronic devices, unauthorized collaboration, alteration of graded assignments, forgery and falsification, lying, facilitating academic dishonesty, and unfair competition. Please report any ethics violations you witness to the instructor. You may consult the associate dean of student affairs and/or the chairman of the Ethics Board beforehand. See also the Guide on Academic Ethics for Undergraduates and the <a href="http://ethics.jhu.edu">Ethics Board Web site</a>. In particular:
+
+<p><b>Do not cheat.</b> You are encouraged to talk with other students about the content of the course, and to use written material (lecture slides, the readings, external websites, newspaper/magazine stories, and so on) as sources, but your written work must be original to you, with the exception of short quotes that are clearly indicated as such (see next paragraph).</p>
+
+<p><b>Do not plagiarize.</b> If you quote directly from a book or other resource, please indicate this with quotes ("...") and a parenthesized citation after the quoted material; in any case, do not quote extensively from other sources. If you are simply paraphrasing a portion of a resource, leave off the quotes but keep the citation. Use a simple format for citations, for example: "human language syntax is not regular (Chomsky 1957: pages xxx-xxx)".</p>
+
+
+<h2>Course requirements</h2>
+
+<p>Your responsibilities for the course are:</p>
+<ul>
+    <li>Attend the lectures and <b>and participate regularly</b>.</li>
+    <li>Attend the labs (except if you have received my permission not to attend them).</li>
+    <li>If anything isn't clear, ask questions in class, on Piazza or during our office hours.</li>
+    <li>Complete all of the homework assignments.</li>
+    <li>Complete the two in-class exams.</li>
+</ul>
+
+<p><b>Attendance:</b> Students are expected to attend all of the meetings of the class. We will occasionally check attendance. Please email your TA in advance if you need to miss a meeting for religious, health or any other <b>valid</b> reason. Do not come to class if you're sick; you do not need to bring a doctor's note, but again, do email your TA in advance to let us know you'll be missing class. Repeated unexplained absence will have consequences beyond the participation grade and may result in failure in the class.<p>
+
+<p><b>Participation:</b> Participation will count for 10% of the grade. To obtain the full participation grade, students are expected to attend classes regularly, participate in the discussion and only use their laptops for class-related purposes. Be advised that this part of the grade is most certainly not an automatic 10% bonus (ask the students who took this class last year!): if you obtain a perfect score on the homework assignments and exams, but never participate and attend irregularly, your grade will be 90 (A-). Make sure not to dominate the discussion, however: give space to all of the students to participate.</p>
+
+<p><b>Exams:</b> There will be two non-cumulative in-class exams, one on <b>Tuesday, Oct 8</b> and another on <b>Thursday, Dec 5</b>. There will not be an additional exam during finals period. Each of the exams will make up 25% of the grade. A review session will be held before each exam; the review sessions will be scheduled during normal class hours (in the lecture immediately before each exam). There will be <b>no make-up exams</b>, with the exception of documented emergencies and requests approved in advance by the instructor. In all other cases, the grade for the missed exam will be 0.</p>
+
+<p><b>Homework assignments:</b> There will be ten homework assignments over the course of the semester. The homework assignments will include very short essays about the readings, problem sets reinforcing mathematical concepts, and short programming assignments. All ten homework assignments must be submitted to pass the class. The homework assignments will make up 40% of the grade: 5% for each of the eight homework assignments with the highest grades.</p>
+
+<p><b>Late homework assignments:</b> You have a budget of 15 late days that you can use as you see fit. Late days cannot be subdivided into smaller units; for example, an assignment that is 27 hours late will cost you two late days. Every late day exceeding this budget will result in the deduction of two grade points (of the overall grade for the class). Note that late days are meant to cover all eventualities such as short illnesses, unexpected family obligations, or technical issues with your computer. Don't use all of your late days early in the semester: for fairness reasons, I will not authorize additional late days.</p>
+
+<p><b>Readings:</b> There is no required textbook. All of the readings will be available for download from this page.</p>
+
+<h2>Course outline</h2>
+
+<p>The topics and readings may change during the semester, depending on our rate of progress and interests.</p>
+
+<h3>Foundations</h3>
+
+<ul>
+    <li>Paul Thagard (2005). Mind: Introduction to cognitive science (2nd ed.). <a href="/media/readings/thagard_2005.pdf">Pages 3&ndash;21</a>.</li>
+    <li>Stephan Lewandowski &amp; Simon Farrell (2012). Computational Modeling in Cognition. <a href="/media/readings/lewandowsky_2012_chapter_1.pdf">Chapter 1: Introduction</a>.</li>
+    <li>Marr (1982). Vision. <a href="/media/readings/marr_1982_chapter_1.pdf">Chapter 1</a>, pages 19&ndash;29.</li>
+</ul>
+
+<h3>Concepts and learning</h3>
+
+<ul>
+    <li>Stuart Russell &amp; Peter Norvig (2010). Artificial intelligence: a modern approach (third edition). Chapter 18: Learning from examples, pages 693&ndash;697.</li>
+    <li>Gregory Murphy (2002). The big book of concepts. <a href="/media/readings/murphy_2002_ch2.pdf">Chapter 2: Typicality and the Classical View of Concepts</a>.</li>
+    <li>Gregory Murphy (2002). The big book of concepts. <a href="/media/readings/murphy_2002_ch3.pdf">Chapter 3: Theories</a>.</li>
+</ul>
+
+<h3>Probabilistic inference</h3>
+<ul>
+    <li>Sharon Goldwater (2018). <a href="/media/readings/goldwater_basic_probability.pdf">Basic probability theory</a>, sections 1 through 4.</li>
+    <li>Joshua B. Tenenbaum &amp; Tom Griffiths (2001). <a href="/media/readings/tenenbaum_griffiths_2001.pdf">Generalization, similarity, and Bayesian inference</a> (pages 629&ndash;634). <i>Behavioral and Brain Sciences</i>.</li>
+    <li>Fei Xu &amp; Joshua B. Tenenbaum (2007). <a href="/media/readings/xu_tenenbaum_2007.pdf">Word learning as Bayesian inference</a>, pages 245&ndash;253.</li>
+    <li>Michael C. Frank &amp; Noah D. Goodman (2012). <a href="/media/readings/frank_and_goodman_2012.pdf">Predicting pragmatic reasoning in language games</a>. <i>Science.</i></li>
+</ul>
+
+<h3>Formal grammars</h3>
+
+<ul>
+    <li>Noam Chomsky (1957). Syntactic structures. <a href="/media/readings/chomsky_syntactic_structures_13_25.pdf">Pages 13&ndash;25</a>.</li>
+    <li>Dan Jurafsky and James Martin (2019). Speech and Language Processing (third edition). Chapter 11: <a href="/media/readings/slp3_chapter11_constituency_grammars.pdf">Constituency Grammars</a>, pages 1&ndash;14 (inclusive).</li>
+</ul>
+
+<h3>Reinforcement learning</h3>
+<ul>
+    <li>Sutton and Barto (2018). <a href="/media/readings/sutton_barto.pdf">Reinforcement learning: an introduction</a>. Chapter 1: Introduction (up to 1.6, inclusive).</li>
+    <li>Sutton and Barto (2018). <a href="/media/readings/sutton_barto.pdf">Reinforcement learning: an introduction</a>. Chapter 14: Psychology.</li>
+    <li>(For guest lecture: Jessica Hamrick (2019). <a href="/media/readings/hamrick_2019.pdf">Analogues of mental simulation and imagination in deep learning</a>. Current Opinions in Behavioral Sciences.)</li>
+</ul>
+
+<h3>Artificial neural networks</h3>
+
+<ul>
+    <li>Elman et al (1996). Rethinking Innateness: A connectionist perspective on development. <a href="/media/readings/elman_et_al_1996_chapter_2.pdf">Chapter 2: Why connectionism?</a>, pages 50&ndash;73 and 90&ndash;97.</li>
+    <li>James L. McClelland &amp; Timothy T. Rogers (2003). <a href="/media/readings/mcclelland_rogers_2003.pdf">The parallel distributed processing approach to semantic cognition</a>. <i>Nature Reviews Neuroscience</i>.</a>
+</ul>
+
+<h3>Language acquisition across modeling approaches</h3>
+
+<ul>
+    <li>Afra Alishahi (2010). <a href="/media/readings/alishahi_2010.pdf">Computational modeling of human language acquisition</a>. Pages 25&ndash;38.</li>
+    <li>Steven Pinker &amp; Michael T. Ullman (2002). <a href="/media/readings/pinker_ullman_2002.pdf">The past and future of the past tense</a>. <i>Trends in Cognitive Sciences</i>.</li>
+</ul>
+
+<h3>Vision across modeling approaches</h3>
+<ul>
+    <li>John P. Frisby &amp; James V. Stone (2010). Seeing. <a href="/media/readings/frisby_stone_2010_seeing.pdf">Chapters 1 and 5</a>.</li>
+    <li>Nikolaus Kriegeskorte (2015). <a href="/media/readings/kriegeskorte_2015.pdf">Deep neural networks: a new framework for modeling biological vision and brain information processing</a>. <i>Annual Review of Vision Science</i>.</li>
+    <li>Brenden Lake, Ruslan Salakhutdinov &amp; Joshua B. Tenenbaum (2015). <a href="/media/readings/lake_et_al_2015.pdf">Human-level concept learning through probabilistic program induction</a>. <i>Science</i>.</li>
+</ul>
+
+<h3>Contemporary artificial intelligence and cognitive science</h3>
+
+<ul>
+    <li>Yann Lecun, Yoshua Bengio &amp; Geoffrey Hinton (2015). <a href="/media/readings/lecun_bengio_hinton_2015.pdf">Deep learning</a>. <i>Nature</i>.</li>
+    <li>Douglas Heaven (2019). <a href="/media/readings/fooling_deep_learning.pdf">Why deep-learning AIs are so easy to fool</a>. Nature.</li>
+    <li>Sharon Zhou (2018). <a href="/media/readings/state_of_nmt.pdf">Has AI surpassed humans at translation? Not even close!</a>. Skynet today.</p>
+</ul>
+
+Optional reading:
+<ul>
+    <li>Brenden Lake, Tomer Ullman, Joshua B. Tenenbaum and Sam Gershman. (2017). <a href="/media/readings/lake_et_al_2017.pdf">Building machines that learn and think like people</a>. <i>Behavioral and Brain Sciences</i>. Pages 1&ndash;9 (optional: 9&ndash;19).</li>
+    <li>Tal Linzen (2019). <a href="/media/papers/linzen_2019_language.pdf">What can linguistics and deep learning contribute to each other?</a> <i>Language</i>.</li>
+</ul>
+
+<h2>Labs</h2>
+
+Tentative lab schedule:
+<table>
+<tr> <td> 8/30</td><td>Introduction to Python (1)</td></tr>
+<tr> <td> 9/6</td><td>Introduction to Python (2)</td></tr>
+<tr> <td> 9/13</td><td>Probability</td></tr>
+<tr> <td> 9/20</td><td>Models of concept learning; Bayesian inference</td></tr>
+<tr> <td> 9/27</td><td>HW2 review; Bayesian inference (continued)</td></tr>
+<tr> <td> 10/4</td><td>HW3 review; midterm Q&amp;A</td></tr>
+<tr> <td> 10/11</td><td>No lab (midterm)</td></tr>
+<tr> <td> 10/18</td><td>No lab (fall break)</td></tr>
+<tr> <td> 10/25</td><td>HW4 and HW5 review; neural networks</td></tr>
+<tr> <td> 11/1</td><td>HW6 review; neural networks</td></tr>
+<tr> <td> 11/8</td><td>Neural networks</td></tr>
+<tr> <td> 11/15</td><td>Computational models of vision</td></tr>
+<tr> <td> 11/22</td><td></td></tr>
+<tr> <td> 11/29</td><td>No lab (Thanksgiving)</td></tr>
+<tr> <td> 12/6</td><td>No lab (last week)</td></tr>
+</table>
+
+<h2>Grading</h2>
+
+<p><b>Extra credit:</b> Extra credit of up to 2% of the total grade will be available for participating in one or more cognitive science or psychology experiments. Four <a href="https://jhu.sona-systems.com/">SONA</a> credit hours will be counted as 1% of the total grade. There will be no additional extra credit opportunities.</p>
+
+<p><b>Grade composition:</b>
+<ul>
+    <li>Homework assignments: 40%</li>
+    <li>Participation: 10%</li>
+    <li>First exam: 25%</li>
+    <li>Second exam: 25%</li>
+</ul>
+
+<p><b>Letter grades:</b> We will use the following key to assign letter grades:</p>
+
+<table>
+    <tr> <td>Number </td><td>Letter</td></tr>
+<tr> <td> 97&ndash;100</td><td>A+</td></tr>
+<tr> <td>   93&ndash;96</td><td>A</td></tr>
+<tr> <td>   90&ndash;92</td><td>A-</td></tr>
+<tr> <td>   87&ndash;89</td><td>B+</td></tr>
+<tr> <td>   83&ndash;86</td><td>B</td></tr>
+<tr> <td>   80&ndash;82</td><td>B-</td></tr>
+<tr> <td>   77&ndash;79</td><td>C+</td></tr>
+<tr> <td>   73&ndash;76</td><td>C</td></tr>
+<tr> <td>   70&ndash;72</td><td>C-</td></tr>
+<tr> <td>   60&ndash;69</td><td>D</td></tr>
+<tr> <td>   0&ndash;59</td><td>F</td></tr>
+</table>
+
+    <table>
+        <tr></tr>
+    </table>
+</div>
+</body>
+</html>
