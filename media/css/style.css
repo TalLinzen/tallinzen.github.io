@@ -276,3 +276,53 @@ div.after_text_full {
 div.toggle_full {
 	cursor: pointer;
 }
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    #navbar {
+        min-width: 0;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    #navbar li {
+        float: none;
+        text-align: center;
+        background: none;
+        margin-right: 0;
+        padding: 0;
+    }
+    
+    #navbar li a {
+        padding: 10px 0;
+    }
+
+    #myname {
+        padding-left: 20px;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    div.inset {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    #bio, #news {
+        float: none;
+        width: 100%;
+    }
+
+    #profilephoto {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        width: 150px;
+        padding: 10px 0 0 0;
+    }
+    
+    div.wide_inset {
+        width: auto;
+        padding: 0 20px;
+    }
+}
