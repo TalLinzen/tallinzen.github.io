@@ -130,7 +130,7 @@ div.inset {
 }
 
 div.small-inset {
-  padding: 0 0 0 50px;
+  padding: 0 0 0 100px;
   width: 630px;
   display: inline-block;
 }
