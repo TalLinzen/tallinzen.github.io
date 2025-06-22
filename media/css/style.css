@@ -305,6 +305,13 @@ div.toggle_full {
 
     div.inset {
         width: auto;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    div.small_inset {
+        width: auto;
+        max-width: 100%;
         padding: 0 20px;
     }
 
@@ -323,6 +330,7 @@ div.toggle_full {
     
     div.wide_inset {
         width: auto;
+        max-width: 100%;
         padding: 0 20px;
     }
 }
