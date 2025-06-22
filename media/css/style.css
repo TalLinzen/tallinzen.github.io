@@ -1,56 +1,4 @@
 /* NAVIGATION BAR */
-#navbar a {border-bottom-width: 0;}
-#navbar {height: 2.4em;
-  padding: 0 0 0 38px;
-  //margin-bottom: 40px;
-  background: #FBFAF4;
-  border-top: 5px solid #008080;
-  border-bottom: 1px dashed #008080;
-  font: 18px "Helvetica Neue",Helvetica,Arial,sans-serif; overflow: hidden;
-  min-width: 750px;}
-
-#navbar li {list-style:none; float: left; padding: 0 23px 0 13px; margin-right: 5px;
-  background: url(/media/img/diamond-black.gif) 100% 66% no-repeat;}
-#navbar #cv {background: none;}
-#navbar li a {display: block; padding: 0.75em 0 0.25em;
-  text-transform: uppercase; color: #000;}
-
-#profilephoto {
-    width: 200px;
-    float: left;
-    padding-right: 30px;
-    padding-bottom: 20px; 
-    padding-top: 20px;
-}
-
-#myname { 
-    font: 36px "Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #008080;
-    margin-bottom: 0px;
-    padding-left: 50px;
-}
-.lastupdated { margin-top:20px; padding-top: 5px; border-top: 2px solid #008080; }
-
-div.references p {
-    margin-left: 40px;
-    text-indent: -40px;
-}
-
-div.references {
-    padding-bottom: 20px;
-}
-
-div.textblock {
-    padding-bottom: 20px;
-}
-
-/* OTHER */
-body {
-  font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #333;
-  line-height: 21px;
-}
-
 a {
   text-decoration: none;
   color: #08c;
@@ -58,6 +6,78 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+#navbar a {border-bottom-width: 0;}
+
+#navbar {
+  height: 2.4em;
+  padding: 0 0 0 38px;
+
+  /* margin-bottom: 40px; */
+  background: #FBFAF4;
+  border-top: 5px solid #008080;
+  border-bottom: 1px dashed #008080;
+  font: 18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  overflow: hidden;
+  min-width: 750px;
+}
+
+#navbar li {
+  list-style: none;
+  float: left;
+  padding: 0 23px 0 13px;
+  margin-right: 5px;
+  background: url("/media/img/diamond-black.gif") 100% 66% no-repeat;
+}
+#navbar #cv {background: none;}
+
+#navbar li a {
+  display: block;
+  padding: 0.75em 0 0.25em;
+  text-transform: uppercase;
+  color: #000;
+}
+
+#profilephoto {
+  width: 200px;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+#myname {
+  font: 36px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #008080;
+  margin-bottom: 0;
+  padding-left: 50px;
+}
+
+.lastupdated {
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: 2px solid #008080;
+}
+
+div.references p {
+  margin-left: 40px;
+  text-indent: -40px;
+}
+
+div.references {
+  padding-bottom: 20px;
+}
+
+div.textblock {
+  padding-bottom: 20px;
+}
+
+/* OTHER */
+body {
+  font: 14px "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #333;
+  line-height: 21px;
 }
 
 h2 {
@@ -73,7 +93,7 @@ h3 {
 }
 
 textarea {
-  color:#333;
+  color: #333;
   padding: 5px;
   height: 75px;
   border: 1px solid #bbb;
@@ -91,12 +111,13 @@ button {
   cursor: pointer;
   border: 1px solid #ccc;
   text-shadow: 1px 1px 0 #fff;
-  -moz-border-radius: 2px;
-  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
+
 button:hover {
   opacity: 0.8;
 }
+
 button:active {
   opacity: 1;
 }
@@ -108,23 +129,23 @@ div.inset {
   display: inline-block;
 }
 
-div.small_inset {
+div.small-inset {
   padding: 0 0 0 50px;
   width: 630px;
   display: inline-block;
 }
 
 #bio {
-    width: 470px;
-    float: left;
+  width: 470px;
+  float: left;
 }
 
 #news {
-    width: 300px;
-    float: right;
+  width: 300px;
+  float: right;
 }
 
-div.wide_inset {
+div.wide-inset {
   padding: 0 0 0 140px;
   width: 800px;
 }
@@ -142,69 +163,70 @@ th {
 }
 
 td {
-    padding-right: 12px;
-    vertical-align: top;
+  padding-right: 12px;
+  vertical-align: top;
 }
 
 /* Responsive styles */
-@media screen and (max-width: 768px) {
-    #navbar {
-        min-width: 0;
-        height: auto;
-        padding: 0 5px;
-        font-size: 14px;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
+@media screen and (width <= 768px) {
+  #navbar {
+    min-width: 0;
+    height: auto;
+    padding: 0 5px;
+    font-size: 14px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 
-    #navbar li {
-        float: none;
-        display: inline-block;
-        text-align: center;
-        background: none;
-        margin-right: 0;
-        padding: 0 5px;
-    }
-    
-    #navbar li a {
-        padding: 8px 4px;
-        font-size: 14px;
-    }
+  #navbar li {
+    float: none;
+    display: inline-block;
+    text-align: center;
+    background: none;
+    margin-right: 0;
+    padding: 0 5px;
+  }
 
-    #myname {
-        padding-left: 20px;
-        font-size: 28px;
-        text-align: center;
-    }
+  #navbar li a {
+    padding: 8px 4px;
+    font-size: 14px;
+  }
 
-    div.inset {
-        width: auto;
-        max-width: 100%;
-        padding: 0 20px;
-    }
+  #myname {
+    padding-left: 20px;
+    font-size: 28px;
+    text-align: center;
+  }
 
-    div.small_inset {
-        width: auto;
-        max-width: 100%;
-        padding: 0 20px;
-    }
+  div.inset {
+    width: auto;
+    max-width: 100%;
+    padding: 0 20px;
+  }
 
-    #bio, #news {
-        float: none;
-        width: 100%;
-    }
+  div.small-inset {
+    width: auto;
+    max-width: 100%;
+    padding: 0 20px;
+  }
 
-    #profilephoto {
-        float: none;
-        display: block;
-        margin: 0 auto 20px;
-        width: 150px;
-        padding: 10px 0 0 0;
-    }
-    
-    div.wide_inset {
-        width: auto;
-        max-width: 100%;
-        padding: 0 20px;
-    }
+  #bio,
+  #news {
+    float: none;
+    width: 100%;
+  }
+
+  #profilephoto {
+    float: none;
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+    padding: 10px 0 0;
+  }
+
+  div.wide-inset {
+    width: auto;
+    max-width: 100%;
+    padding: 0 20px;
+  }
 }
