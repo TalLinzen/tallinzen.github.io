@@ -61,8 +61,8 @@ a:hover {
 }
 
 div.references p {
-  margin-left: 40px;
-  text-indent: -40px;
+  margin-left: 0;
+  text-indent: 0;
 }
 
 div.references {
