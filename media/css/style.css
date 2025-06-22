@@ -282,19 +282,24 @@ div.toggle_full {
     #navbar {
         min-width: 0;
         height: auto;
-        padding: 0 10px;
+        padding: 0 5px;
+        font-size: 14px;
+        overflow-x: auto;
+        white-space: nowrap;
     }
 
     #navbar li {
         float: none;
+        display: inline-block;
         text-align: center;
         background: none;
         margin-right: 0;
-        padding: 0;
+        padding: 0 5px;
     }
     
     #navbar li a {
-        padding: 10px 0;
+        padding: 8px 4px;
+        font-size: 14px;
     }
 
     #myname {
