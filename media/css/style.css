@@ -65,6 +65,15 @@ div.references p {
   text-indent: 0;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
+.icon {
+  height: 1em;
+  vertical-align: middle;
+}
+
 div.references {
   padding-bottom: 20px;
 }
