@@ -61,8 +61,8 @@ a:hover {
 }
 
 div.references p {
-  margin-left: 0;
-  text-indent: 0;
+  padding-left: 2em;
+  text-indent: -2em;
 }
 
 .nowrap {
